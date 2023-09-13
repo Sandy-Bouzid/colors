@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 35vh
+}
+
+button {
+    background: #000;
+    border: 0;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 1.3em 2em;
+}
+
+#colors-input {
+    font-size: 1.2em;
+    height: 3.5em;
+    width: 18em;
+    text-align: center;
+}
+
+#colors-error {
+    color: rgb(197, 7, 7);
+    margin: 1em;
+    font-size: 1.5em;
+}
