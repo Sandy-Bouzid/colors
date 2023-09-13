@@ -1,1 +1,14 @@
-# colors
+# What's this color ?
+
+Find what color correspond to your hexadecimal value !
+
+## HomePage
+
+<img src="./screenshot-home.png" alt="screenshot" style="width:500px;"/>
+
+## Succes
+
+<img src="./screenshot-succes.png" alt="screenshot" style="width:500px;"/>
+
+## Error
+<img src="./screenshot-error.png" alt="screenshot" style="width:500px;"/>
