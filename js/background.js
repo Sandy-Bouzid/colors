@@ -1,8 +1,8 @@
-const formElem = document.querySelector('#colors-form');
+const formElemBackground = document.querySelector('#colors-form-background');
+formElemBackground.addEventListener('submit', handleSubmitBackground);
 
-formElem.addEventListener('submit', handleSubmit);
-
-function handleSubmit(event) {
+function handleSubmitBackground(event) {
+    console.log('test');
     event.preventDefault();
     let formInput = document.querySelector('#colors-input').value;
 

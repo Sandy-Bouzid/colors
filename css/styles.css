@@ -1,7 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-top: 35vh
 }
 
 button {
@@ -12,7 +11,7 @@ button {
     padding: 1.3em 2em;
 }
 
-#colors-input {
+#colors-input, #colors-input-duck {
     font-size: 1.2em;
     height: 3.5em;
     width: 18em;
@@ -23,4 +22,49 @@ button {
     color: rgb(197, 7, 7);
     margin: 1em;
     font-size: 1.5em;
+}
+
+.main-background, .form-duck {
+    margin-top: 30vh;
+}
+.main-duck {
+    display: flex;
+    justify-content: space-around;
+}
+
+.duck-image {
+    margin-top: 20vh;
+}
+
+ul{
+    display: flex;
+ justify-content: center;
+ gap: 5em;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and (max-width: 1032px){
+    .main-duck {
+        display: block;
+    }
+    .form-duck {
+        margin-top: 5vh;
+        max-width: 95vw;
+    }
+    .duck-image {
+        margin-top: 3em;
+        width: 400px;
+    }
 }
