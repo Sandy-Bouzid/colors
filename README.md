@@ -12,3 +12,8 @@ Find what color correspond to your hexadecimal value !
 
 ## Error
 <img src="./screenshot-error.png" alt="screenshot" style="width:500px;"/>
+
+## Duck version 
+<img src="./screenshot-duck.png" alt="screenshot" style="width:500px;"/>
+
+[Image source](https://freesvg.org/1539744338)
