@@ -11,7 +11,8 @@ button {
     padding: 1.3em 2em;
 }
 
-#colors-input, #colors-input-duck {
+#colors-input,
+#colors-input-duck {
     font-size: 1.2em;
     height: 3.5em;
     width: 18em;
@@ -24,9 +25,11 @@ button {
     font-size: 1.5em;
 }
 
-.main-background, .form-duck {
+.main-background,
+.form-duck {
     margin-top: 30vh;
 }
+
 .main-duck {
     display: flex;
     justify-content: space-around;
@@ -36,12 +39,13 @@ button {
     margin-top: 20vh;
 }
 
-ul{
+ul {
     display: flex;
- justify-content: center;
- gap: 5em;
+    justify-content: center;
+    gap: 5em;
     padding: 0;
 }
+
 a {
     text-decoration: none;
     color: #000;
@@ -55,16 +59,38 @@ li {
     list-style: none;
 }
 
-@media screen and (max-width: 1032px){
+@media screen and (max-width: 1032px) and (min-width: 451px) {
     .main-duck {
         display: block;
     }
+
     .form-duck {
         margin-top: 5vh;
         max-width: 95vw;
     }
+
     .duck-image {
         margin-top: 3em;
         width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main-duck {
+        display: block;
+    }
+
+    .form-duck {
+        margin-top: 5vh;
+        max-width: 95vw;
+    }
+
+    #colors-input-duck {
+        width: 85vw;
+    }
+
+    .duck-image {
+        margin-top: 1em;
+        width: 90vw;
     }
 }
