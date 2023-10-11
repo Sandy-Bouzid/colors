@@ -30,6 +30,14 @@ button {
     margin-top: 30vh;
 }
 
+#colors-form-background, #colors-form-duck {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 .main-duck {
     display: flex;
     justify-content: space-around;

@@ -1,6 +1,6 @@
 # What's this color ?
 
-Find what color correspond to your hexadecimal value !
+Find what color correspond to your hexadecimal color codes !
 
 ## HomePage
 
