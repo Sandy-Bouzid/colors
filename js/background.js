@@ -29,7 +29,6 @@ function handleClickRandomColor() {
     const color = generateRandomColor();
     bodyElem.style.backgroundColor = color;
     formInput.value = color;
-    formInput.focus();
 }
 
 function generateRandomColor() {

@@ -38,8 +38,6 @@ function handleClickRandomColorDuck() {
     duckBody.style.fill = color;
     duckWing1.style.fill = color;
     duckWing2.style.fill = color;
-    
-    formInput.focus();
 }
 
 function generateRandomColor() {
