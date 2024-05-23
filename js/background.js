@@ -1,8 +1,10 @@
 const formElemBackground = document.querySelector('#colors-form-background');
 formElemBackground.addEventListener('submit', handleSubmitBackground);
 
+const buttonRandom = document.querySelector('.random');
+buttonRandom.addEventListener('click', handleClickRandomColor);
+
 function handleSubmitBackground(event) {
-    console.log('test');
     event.preventDefault();
     let formInput = document.querySelector('#colors-input').value;
 
@@ -19,4 +21,21 @@ function handleSubmitBackground(event) {
     }
 
     formInput.focus();
+}
+
+function handleClickRandomColor() {
+    const formInput = document.querySelector('#colors-input');
+    const bodyElem = document.body;
+    const color = generateRandomColor();
+    bodyElem.style.backgroundColor = color;
+    formInput.value = color;
+    formInput.focus();
+}
+
+function generateRandomColor() {
+    // Math.random() : generate a random 24-bit (6 * 4bits) hexadecimal number
+    // toString() : convert it to an hexadecimal string with a base of 16.
+    // slice() : extract the first 6 characters
+    let n = (Math.random() * 0xfffff * 1000000).toString(16);
+    return '#' + n.slice(0, 6);
 }

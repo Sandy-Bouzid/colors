@@ -23,9 +23,12 @@
         
         <form id="colors-form-background">
             <label for="">Enter an hexadecimal color code</label>
-            <input id="colors-input" name="color" type="text" placeholder="ex : #15AE58" />
-            <button>OK</button>
+            <div class="form-content">
+                <input id="colors-input" name="color" type="text" placeholder="ex : #15AE58" />
+                <button type="submit">OK</button>
+            </div>
         </form>
+        <button class="random">Random Color</button>
         <div id="colors-error"></div>
         </div>
         <script src="js/background.js"></script>

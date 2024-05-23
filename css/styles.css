@@ -30,7 +30,8 @@ button {
     margin-top: 30vh;
 }
 
-#colors-form-background, #colors-form-duck {
+#colors-form-background,
+#colors-form-duck {
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -38,6 +39,7 @@ button {
     align-items: center;
     gap: 5px;
 }
+
 .main-duck {
     display: flex;
     justify-content: space-around;
@@ -45,6 +47,11 @@ button {
 
 .duck-image {
     margin-top: 20vh;
+}
+
+.form-content {
+    display: flex;
+    gap: 0.5em;
 }
 
 ul {
@@ -77,6 +84,10 @@ li {
         max-width: 95vw;
     }
 
+    .form-content {
+        display: block;
+    }
+
     .duck-image {
         margin-top: 3em;
         width: 400px;
@@ -84,16 +95,30 @@ li {
 }
 
 @media screen and (max-width: 450px) {
+
+    .main-background,
+    .form-duck {
+        margin-top: 10vh;
+    }
+
     .main-duck {
         display: block;
     }
 
     .form-duck {
-        margin-top: 5vh;
         max-width: 95vw;
     }
 
-    #colors-input-duck, #colors-input {
+    .form-content {
+        display: block;
+    }
+
+    .form-content button{
+        margin-top: 0.5em;
+    }
+
+    #colors-input-duck,
+    #colors-input {
         width: 85vw;
     }
 
